@@ -22,7 +22,8 @@
 * [For Engineers](use-cases/for-engineers/README.md)
   * [GitHub Integration](use-cases/for-engineers/github-integration.md)
 * [For Support](use-cases/for-support/README.md)
-  * [Intercom Integration](use-cases/for-support/intercom-integration.md)
+  * [Intercom Integration](use-cases/for-support/intercom-integration/README.md)
+    * [Page 1](use-cases/for-support/intercom-integration/page-1.md)
 
 ## Extras
 
