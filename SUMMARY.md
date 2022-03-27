@@ -28,3 +28,7 @@
 ## Extras
 
 * [Keyboard Shortcuts](extras/keyboard-shortcuts.md)
+
+***
+
+* [Page 2](page-2.md)
