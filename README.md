@@ -1,3 +1,7 @@
+---
+layout: editorial
+---
+
 # What is MyProduct?
 
 {% hint style="info" %}
