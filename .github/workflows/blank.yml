@@ -1,0 +1,19 @@
+# This is a basic workflow to help you get started with Actions
+
+name: check pr source branch
+on:
+  pull_request_target:
+    types:
+      - opened
+      - reopened
+      - synchronize
+jobs:
+  check-branches:
+    runs-on: ubuntu-latest
+    steps:
+      - name: check branch
+        run: |
+          if [ ${{ github.head_ref }} != "dev" ] && [ ${{ github.base_ref }} == "main" ]; then
+            echo "Merge requests to main branch are only allowed from dev branch."
+            exit 1
+          fi
